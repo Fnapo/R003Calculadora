@@ -1,0 +1,11 @@
+.valores {
+    height: 90%;
+    font-weight: bold;
+    font-size: 1.5vmax;
+    margin: 0.2vmax;
+    text-align: end;
+    background-color: rgb(57, 42, 123);
+    color: white;
+    padding: 0.2rem .6rem 0.2rem 0.2rem;
+    width: 100%;
+}

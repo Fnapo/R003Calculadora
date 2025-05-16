@@ -1,0 +1,8 @@
+.cuerpo {
+    height: 80%;
+    /*width: 22.5%;*/
+    flex: 1;
+    font-weight: bold;
+    font-size: 1.5vmax;
+    margin: 0.2vmax;
+}

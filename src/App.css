@@ -1,10 +1,28 @@
 .App {
   text-align: center;
+  background-color: #1b1b32;
+  min-height: 100vh;
+  font-size: 3vmax;
+  font-family: Lato, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo-imagen {
+  object-fit: contain;
+  width: 50vmin;
+}
+
+main {
+  width: 20vmax;
+  height: 30vmax;
+  background-color: rgb(170, 168, 176);
+}
+
+.fila {
+  height: 16.66%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: white solid .1vmax;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,25 +31,11 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
